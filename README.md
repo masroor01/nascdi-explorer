@@ -48,3 +48,6 @@ The example file is synthetic.
 - Free instances have a small share of a CPU and 512 MB of memory. The default of 499 bootstrap draws keeps a typical analysis in seconds
   locally; on the free tier choose 199-499 draws for long series, and use 999-1,999 only when you can wait.
 - Upgrading the service removes sleeping; nothing else needs to change.
+
+## Licence
+Code: MIT (see `LICENSE`). The index values in `server/data/index.json` are derived from public GDELT metadata; please cite the accompanying paper when using them.

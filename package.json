@@ -2,6 +2,7 @@
   "name": "nascdi-explorer",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "install:all": "npm --prefix server install && npm --prefix client install",
     "build": "npm --prefix client run build",
